@@ -1,0 +1,115 @@
+git add .
+git commit -m "Add website files"
+git push origin main
+  <!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gia phả dòng họ Nguyễn Trãi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .node {
+      padding: 8px 16px;
+      background-color: #fef3c7;
+      border: 1px solid #f59e0b;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .node:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .line {
+      height: 20px;
+      border-left: 2px solid #f59e0b;
+      margin: 0 auto;
+    }
+    .horizontal-line {
+      width: 40px;
+      height: 2px;
+      background: #f59e0b;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .spacer {
+      height: 20px;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 50;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .modal-content {
+      background-color: white;
+      margin: 10% auto;
+      padding: 20px;
+      border: 1px solid #f59e0b;
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 p-6">
+
+  <header class="mb-6">
+    <h1 class="text-3xl font-bold">Gia phả dòng họ Nguyễn Trãi</h1>
+    <span class="inline-flex items-center gap-2 text-xl font-medium mt-2 text-gray-700">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 0a2 2 0 00-2 2v12a2 2 0 002 2m0-16a2 2 0 012 2v12a2 2 0 01-2 2m0 0v-2m0 2h8m-8 0H4" />
+      </svg>
+      Dòng họ Nguyễn Trãi – Di sản văn hóa và lịch sử Việt Nam
+    </span>
+    <nav class="mt-4 space-x-4">
+      <a href="#lich-su" class="text-blue-600 hover:underline">Lịch sử</a>
+      <a href="#pha-he" class="text-blue-600 hover:underline">Gia phả</a>
+      <a href="#truyen-thong" class="text-blue-600 hover:underline">Truyền thống</a>
+      <a href="#thu-vien" class="text-blue-600 hover:underline">Thư viện</a>
+      <a href="#lien-he" class="text-blue-600 hover:underline">Liên hệ</a>
+    </nav>
+  </header>
+
+  <section id="lich-su" class="mt-10">
+    <h2 class="text-2xl font-semibold mb-2">Lịch sử</h2>
+    <p>Thông tin tổng quan về dòng họ Nguyễn Trãi và các sự kiện lịch sử liên quan...</p>
+  </section>
+
+  <section id="pha-he" class="mt-10">
+    <h2 class="text-2xl font-semibold mb-2">Gia phả</h2>
+    <p>Chi tiết sơ đồ gia phả, các nhánh, con cháu của Nguyễn Trãi...</p>
+  </section>
+
+  <section id="truyen-thong" class="mt-10">
+    <h2 class="text-2xl font-semibold mb-2">Truyền thống</h2>
+    <p>Giá trị văn hóa, truyền thống, lễ giỗ tổ và các hoạt động của hậu duệ...</p>
+  </section>
+
+  <section id="thu-vien" class="mt-10">
+    <h2 class="text-2xl font-semibold mb-2">Thư viện</h2>
+    <p>Hình ảnh, tài liệu, trích đoạn, sách viết về Nguyễn Trãi và gia tộc...</p>
+  </section>
+
+  <section id="lien-he" class="mt-10 mb-20">
+    <h2 class="text-2xl font-semibold mb-2">Liên hệ</h2>
+    <p>Email, số điện thoại, địa chỉ liên lạc, liên hệ để bổ sung thông tin...</p>
+  </section>
+
+</body>
+</html>
